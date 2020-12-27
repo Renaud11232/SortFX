@@ -1,0 +1,28 @@
+#appTitle {
+    -fx-font-size: 50;
+    -fx-padding: 30 0 30 0;
+}
+
+#content {
+    -fx-background-color: black;
+}
+
+#nav .toggle-button {
+    -fx-border-color: transparent;
+    -fx-font-size: 14;
+    -fx-border-width: 0 0 0 4;
+    -fx-border-style: none none none solid;
+    -fx-border-insets: 10 10 10 0;
+}
+
+#nav .toggle-button:hover:selected, #nav .toggle-button:hover {
+    -fx-background-color: #484848;
+}
+
+#nav .toggle-button:selected {
+    -fx-border-color: #0078d7;
+}
+
+#nav .toggle-button:selected, #nav .toggle-button {
+    -fx-background-color: #252525;
+}
