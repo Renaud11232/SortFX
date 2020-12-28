@@ -1,13 +1,17 @@
-package be.renaud11232.sortfx.model;
+package be.renaud11232.sortfx.view;
+
+import be.renaud11232.sortfx.model.ArrayObserver;
+import be.renaud11232.sortfx.model.SortableArray;
 
 import java.util.LinkedList;
 import java.util.List;
 
-public class ObservableArray {
+public class DisplayableArray extends SortableArray<Integer> {
 
     private List<ArrayObserver> observers;
 
-    public ObservableArray() {
+    public DisplayableArray(int size) {
+        super(size);
         observers = new LinkedList<>();
     }
 

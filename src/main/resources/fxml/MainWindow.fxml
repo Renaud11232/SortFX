@@ -15,34 +15,12 @@
          <children>
             <Label id="appTitle" alignment="CENTER" maxWidth="1.7976931348623157E308" text="SortFX" textAlignment="CENTER">
                <font>
-                  <Font size="50.0" />
+                  <Font size="50.0"/>
                </font>
             </Label>
             <ScrollPane fitToHeight="true" fitToWidth="true" styleClass="edge-to-edge">
                <content>
-                  <VBox id="nav">
-                     <children>
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" selected="true" text="ToggleButton">
-                           <toggleGroup>
-                              <ToggleGroup fx:id="nav" />
-                           </toggleGroup>
-                        </ToggleButton>
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                        <ToggleButton alignment="CENTER_LEFT" maxHeight="48.0" maxWidth="1.7976931348623157E308" minHeight="48.0" mnemonicParsing="false" prefHeight="48.0" text="ToggleButton" toggleGroup="$nav" />
-                     </children>
-                  </VBox>
+                  <VBox id="nav" fx:id="nav" />
                </content>
             </ScrollPane>
          </children>

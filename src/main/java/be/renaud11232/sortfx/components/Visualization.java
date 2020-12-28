@@ -1,14 +1,14 @@
 package be.renaud11232.sortfx.components;
 
 import be.renaud11232.sortfx.model.ArrayObserver;
-import be.renaud11232.sortfx.model.ObservableArray;
+import be.renaud11232.sortfx.view.DisplayableArray;
 import javafx.scene.layout.Region;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.Rectangle;
 
 public abstract class Visualization extends Region implements ArrayObserver {
 
-    private ObservableArray model;
+    private DisplayableArray model;
 
     public Visualization() {
         Rectangle test = new Rectangle();
@@ -20,7 +20,7 @@ public abstract class Visualization extends Region implements ArrayObserver {
         getChildren().add(test);
     }
 
-    public void setModel(ObservableArray array) {
+    public void setModel(DisplayableArray array) {
         if(model != null) {
             model.removeObserver(this);
         }
@@ -35,7 +35,7 @@ public abstract class Visualization extends Region implements ArrayObserver {
         setModel(null);
     }
 
-    protected ObservableArray getModel() {
+    protected DisplayableArray getModel() {
         return model;
     }
 
